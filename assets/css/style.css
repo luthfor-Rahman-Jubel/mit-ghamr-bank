@@ -1,0 +1,57 @@
+body{
+    padding: 100px;
+}
+
+.submit-area{
+    margin-top: 50px;
+    padding: 40px;
+    box-shadow: 5px 5px 10px rgb(37, 34, 34);
+    border-radius: 10px;
+}
+
+@media only screen and (min-width:730px){
+
+    .login-area h1 {
+        overflow: hidden; 
+        white-space: nowrap; 
+        margin: 0 auto; 
+        letter-spacing: .10em; 
+        animation: 
+          typing 3.5s,steps(40, end);
+      }
+     @keyframes typing {
+        from { width: 0;  }
+        to { width: 100%; }
+      } 
+}
+
+#transaction-area{
+    display: none;
+}
+
+.status{
+    color: white;
+     margin: 0 15px;
+     border-radius: 10px;
+     padding: 10px;
+   }
+
+.deposite{
+    background-color: rgb(128, 62, 190);
+}
+.widthrow{
+    background-color: rgb(56, 124, 56);
+}
+.balance{
+    background-color: rgb(133, 133, 60);
+}
+
+
+
+
+
+
+
+
+
+
